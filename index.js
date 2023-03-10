@@ -1,6 +1,7 @@
 // variables
 const searchBtn = document.getElementById("searchBtn");
 
+
 const newsQuery = document.getElementById("newsQuery");
 const newsType = document.getElementById("newsType");
 const newsdetails = document.getElementById("newsdetails");
