@@ -1,0 +1,67 @@
+.navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(40, 40, 40);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+.body {
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    border-radius: 10px;
+    border-style: solid;
+
+}
+
+.searchBar {
+    padding: 10px;
+    width: 400px;
+    border: line;
+    border-color: aliceblue;
+    border-radius: 10px;
+}
+
+.searchBtn {
+    padding: 10px;
+    width: 200px;
+    border: line;
+    border-radius: 10px;
+    border-color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.news {
+    background-color: rgb(166, 166, 166);
+    border-radius: 25px;
+}
+.newsType {
+    background: rgb(243, 242, 242);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+
+    /* overflow: auto; */
+    /* height: 30vh; */
+
+
+    gap: 10px;
+}
+
+.newsDetails {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color:rgb(166, 166, 166);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* overflow: auto; */
+    /* height: 30vh; */
+    margin: 10px;
+}
